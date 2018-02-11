@@ -1,0 +1,69 @@
+
+
+.table {
+	display: flex;
+	flex-flow: column;
+}
+
+.thead tr {
+	border-bottom: 1px solid grey;
+	padding-bottom: .5rem;
+}
+
+.tbody {
+	padding-top: .5rem;
+}
+
+.tbody tr {
+	padding: 5px;
+	transition: background .2s;
+}
+
+.tbody tr:hover {
+	background: lightgrey;
+	cursor: context-menu;
+}
+
+tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+tr td {
+	width: 100%;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	grid-row-gap: 20px;
+}
+
+.inputForm {
+	display: grid;
+	grid-row-gap: 15px;
+}
+
+.inputForm input {
+	padding: 5px;
+	border: 1px solid #E2E2E1;
+	border-radius: 2px;
+	transition: all .2s;
+}
+
+.form__button {
+	width: 60px;
+	background: #00D0B3;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+	color: #00D0B3;
+	font-weight: bold; 
+}

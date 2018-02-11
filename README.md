@@ -5,3 +5,4 @@ A simple CRUD application/
 -- npm run start-dev
 <br>
 <a href="http://localhost:1234">localhost:1234</a>
+<img src="admin-table.png">
